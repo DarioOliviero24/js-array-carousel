@@ -3,13 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.height{
-    height: 200px;
-}
-
 .horizontal {
-    
-    height:500px;
+    height:600px;
     margin:0 auto;
 }
 
@@ -26,13 +21,8 @@ body {
     
 }
 
-.slider {
-    display: flex;
-    height: 600px;
-    transition: transform 0.5s ease-in-out;
-}
-
 .slide {
+    height: 600px;
     min-width: 100%;
     box-sizing: border-box;
     display: none;
